@@ -1,0 +1,5 @@
+inpA=input("請輸入時間1(時:分:秒):")
+inpB=int(input("請輸入時間2(秒):"))
+sinpA=inpA.split(":")
+print("時間１(1:30:20)格式轉換後為",(int(sinpA[0])*60*60)+(int(sinpA[1])*60)+int(sinpA[2]),"秒")
+print("時間２(5420秒)=",inpB//3600,":",(inpB//60)-60,":",inpB%60)

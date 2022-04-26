@@ -1,0 +1,9 @@
+list=[]
+list.append(int(input("國文:")))
+list.append(int(input("英文:")))
+list.append(int(input("微積分:")))
+list.append(int(input("體育:")))
+list.append(int(input("程式設計")))
+print("平均分數:"+str((sum(list)/len(list)))+"分")
+print("最高分科目:程式設計"+str(max(list))+"分")
+print("最低分科目:微積分"+str(min(list))+"分")
